@@ -1,0 +1,112 @@
+/* Basic Reset */
+body, h1, h2, h3, p, table, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #5387ff; /* Primary Blue */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+}
+
+header img {
+    max-height: 50px;
+    vertical-align: middle;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+nav ul li a.active, nav ul li a:hover {
+    background-color: #3a65f6; /* Darker Blue */
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+#intro {
+    background-color: #e8f0ff; /* Light Blue */
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#employee-list {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #3a65f6; /* Darker Blue */
+    color: white;
+}
+
+button {
+    background-color: #5387ff; /* Primary Blue */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #3a65f6; /* Darker Blue */
+}
+
+form input, form button {
+    margin-bottom: 10px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}

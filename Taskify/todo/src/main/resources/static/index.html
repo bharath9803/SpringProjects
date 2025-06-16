@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Application</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <h1>Taskify</h1>
+    <form id="todo-form">
+        <input type="text" id="title" placeholder="Todo title" required>
+        <input type="checkbox" id="completed"> Completed
+        <button type="submit">Add Todo</button>
+    </form>
+    
+    <!-- Table structure to display todos -->
+    <table id="todo-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Completed</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="todo-list"></tbody>
+    </table>
+
+    <!-- Section for creator details -->
+    <section id="creator-details">
+        <h2>Created By</h2>
+        <div id="photo-container">
+            <img src="bharath.jpg" alt="Bharath U" id="creator-photo">
+        </div>
+        <p id="creator-name">Bharath U</p>
+        <p id="creator-info">This project is a simple Todo application to manage your tasks efficiently. Enjoy!.</p>
+    </section>
+
+    <script src="todo.js"></script>
+</body>
+</html>
